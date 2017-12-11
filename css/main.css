@@ -58,12 +58,12 @@ body {
   top: 14px;
 }
 
-.robot:hover .robot-head-right {
-  position: relative;
-  left: 53em;
-}
-
 .robot:hover .robot-head-left {
   position: relative;
-  left: 28em;
+  left: 15em;
+}
+
+.robot:hover .robot-head-right {
+  position: relative;
+  left: 38em;
 }
