@@ -20,6 +20,7 @@ body {
 
 .robot {
   width: 320px;
+  height: auto;
 }
 
 .robot-body {
@@ -44,15 +45,22 @@ body {
 }
 
 .robot-head-left {
-  position: absolute;
+  position: fixed;
   left: 22.8em;
   top: -15px;
 
 }
 
 .robot-head-right {
-  position: absolute;
+  position: fixed;
   right: 22.8em;
   top: -15px;
 
+}
+
+.robot:hover {
+  .robot-head-left {
+    position: relative;
+    left: 4px;
+  }
 }
